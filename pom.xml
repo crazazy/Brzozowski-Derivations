@@ -8,6 +8,16 @@
   <artifactId>regex</artifactId>
   <version>1.0-SNAPSHOT</version>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>Crazazy's regex maven packages</name>
+      <url>https://maven.pkg.github.com/crazazy/Brzozowski-Derivations</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </distributionManagement>
   <name>regex</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
