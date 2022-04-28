@@ -15,6 +15,11 @@ public class Nul implements RegexElement {
     }
 
     @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
     public RegexElement derive(char input) {
         return new Nul();
     }
